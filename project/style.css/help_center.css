@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title > p {
+  padding: 10px 90px;
+  border-bottom: 1px solid black;
+}
+.content > p {
+  color: red;
+  font-family: sans-serif;
+}
+.title > .title-group > img {
+  border-radius: 50%;
+}
+.title > .title-group {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 5px;
+}
+.title-group {
+  display: flex;
+}
+.title-group > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+.img2 {
+  margin-left: 180px;
+}
+.content {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+nav {
+  background-color: #7ee3f2;
+  justify-content: flex-start;
+  display: flex;
+  padding: 15px;
+}
+nav > a {
+  padding-left: 100px;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  transition: 0.3s;
+}
+a:hover {
+  color: black;
+}
+#imp {
+  display: flex;
+  justify-content: flex-end;
+}
+.login > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.login > a:hover {
+  color: black;
+}
+.appointment {
+  background-color: #66e0ff;
+  text-decoration: none;
+  height: 45px;
+  text-align: center;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 230px;
+  color: white;
+}
+
+.login {
+  margin-left: 10px;
+  background-color: #66e0ff;
+  height: 45px;
+  text-align: center;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* Help Section */
+.help-section {
+    background: linear-gradient(#c5ffff, #dffefe);
+    text-align: center;
+    padding: 80px 20px 120px 20px;
+}
+
+/* Top Round Icon */
+.circle-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #c9fafa;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 80px;
+    font-size: 35px;
+}
+
+.help-section h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    color: #0b2b2e;
+}
+
+.help-text {
+    color: #444;
+    max-width: 650px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+
+/* Cards container */
+.help-cards {
+    text-align: center;
+    margin-top: -80px;
+}
+
+/* Individual Card */
+.help-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.1);
+}
+
+/* Card Top Icon */
+.card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #dffefe;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+.help-card h3 {
+    margin-top: 15px;
+    color: #0b2b2e;
+}
+
+.help-card p {
+    margin-top: 10px;
+    color: #444;
+}
+
+.link-text {
+    color: #00a9a5;
+    font-weight: bold;
+}
+
+.help-card:hover{
+    translate: 0px 5px ;
+    background-color:rgb(206, 233, 242);
+}
+
+/* FAQ Section Title */
+.faq-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.faq-section h1 {
+    font-size: 40px;
+    color: #0b2b2e;
+}
+
+.faq-sub {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* FAQ Container */
+.faq-container {
+    width: 75%;
+    margin: 30px auto;
+}
+
+/* Each FAQ Box */
+.faq-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Number Badge */
+.num {
+    width: 35px;
+    height: 35px;
+    background-color: #dffefe;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    color: #0b2b2e;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.faq-box h3 {
+    margin-bottom: 10px;
+    color: #0b2b2e;
+}
+
+.faq-box p {
+    color: #444;
+    line-height: 1.6;
+}
+
+
+/* Extra FAQ already same style */
+.faq-container {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.faq-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+.num {
+    width: 35px;
+    height: 35px;
+    background-color: #dffefe;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Helpful Resources Section */
+.resource-section {
+    background-color: #dffefe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.resource-section h1 {
+    color: #0b2b2e;
+    margin-bottom: 30px;
+}
+
+.resource-cards {
+    width: 100%;
+}
+
+/* Each card */
+.resource-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    margin: 12px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.1);
+}
+
+.resource-card:hover{
+    translate: 0px 5px;
+}
+/* Icon */
+.res-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #dffefe;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+.resource-card h3 {
+    margin-top: 15px;
+    color: #0b2b2e;
+}
+
+.resource-card p {
+    margin-top: 10px;
+    color: #444;
+}
+
+
+/* Section Title */
+.need-help {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.need-help h1 {
+    color: #0b2b2e;
+    font-size: 40px;
+}
+
+.help-line {
+    margin-top: 10px;
+    color: #555;
+}
+
+
+/* Cards Layout */
+.need-cards {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Each Card */
+.need-card {
+    background-color: white;
+    width: 260px;
+    padding: 25px;
+    margin: 12px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.1);
+}
+.need-card:hover{
+    translate: 0px 5px;
+}
+/* Icon Circle */
+.need-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #dffefe;
+    border-radius: 50%;
+    line-height: 60px;
+    margin: auto;
+    font-size: 28px;
+}
+
+/* Text */
+.need-card h3 {
+    margin-top: 12px;
+    color: #0b2b2e;
+}
+
+.need-card p {
+    color: #444;
+    margin-top: 8px;
+}
+
+.green-text {
+    color: #00a7a2;
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+      background-color: #0c3b52;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: left;
+      margin-top: 40px;
+    }
+
+    footer div {
+      max-width: 250px;
+      margin: 10px;
+    }
+
+    footer h4 {
+      margin-bottom: 15px;
+      color: #fff;
+    }
+
+    footer p, footer a {
+      color: #dcdcdc;
+      font-size: 14px;
+      line-height: 1.6;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: #6ee7f9;
+    }
+
+    .bottom {
+      text-align: center;
+      background-color: #0c3b52;
+      padding: 15px;
+      color: #ccc;
+      border-top: 1px solid #999;
+      font-size: 13px;
+    }
