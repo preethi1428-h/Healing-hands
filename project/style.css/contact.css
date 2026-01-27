@@ -7,6 +7,17 @@
 
 body {
   background-color: #f7f9fb;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 190px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .title > p{
     padding: 10px 90px;
@@ -86,8 +97,9 @@ a:hover{
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  margin-left: 250px;
+  margin-left: 220px;
   color:white;
+  margin-top: 6px;
 
 }
 .login{
@@ -102,6 +114,7 @@ a:hover{
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
+  margin-top: 6px;
 }
 .contact-section {
   display: flex;
@@ -209,6 +222,7 @@ footer {
       flex-wrap: wrap;
       justify-content: space-around;
       text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer div {

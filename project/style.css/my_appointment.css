@@ -5,7 +5,17 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+body{
+  margin-top: 250px;
+}
 .title > p{
     padding: 10px 90px;
     border-bottom: 1px solid black;
@@ -85,6 +95,7 @@ nav>a:hover{
   transition: 0.3s;
   margin-left: 220px;
   color:white;
+  margin-top: 6px;
 
 }
 .appointment:hover{
@@ -102,6 +113,7 @@ nav>a:hover{
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
+  margin-top: 6px;
 }
 /* Appointment Section */
 .appointments {
@@ -195,6 +207,7 @@ footer {
       flex-wrap: wrap;
       justify-content: space-around;
       text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer div {

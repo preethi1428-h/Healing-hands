@@ -3,6 +3,18 @@
     padding: 0px;
     
 }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin-top: 230px;
+}
 .title > p{
     padding: 10px 90px;
     border-bottom: 1px solid rgb(0, 0, 0);
@@ -229,6 +241,7 @@ footer {
       flex-wrap: wrap;
       justify-content: space-around;
       text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer div {

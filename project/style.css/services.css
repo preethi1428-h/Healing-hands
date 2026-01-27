@@ -3,6 +3,19 @@
     padding: 0px;
     
 }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin-top: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .title > p{
     padding: 10px 90px;
     border-bottom: 1px solid rgb(0, 0, 0);
@@ -70,8 +83,9 @@ a:hover{
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  margin-left: 250px;
+  margin-left: 220px;
   color:white;
+  margin-top: 6px;
 
 }
 .login{
@@ -85,6 +99,7 @@ a:hover{
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: 6px;
   
 }
 .login>a{
@@ -232,6 +247,7 @@ main>img {
       flex-wrap: wrap;
       justify-content: space-around;
       text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer div {

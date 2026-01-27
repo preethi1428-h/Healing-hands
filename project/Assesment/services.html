@@ -70,31 +70,76 @@
     
   </div>
   <div class="btn-container">
-    <button class="btn">Alcohol</button>
-    <button class="btn">Tablet</button>
-    <button class="btn">Injection</button>
+    <button class="btn" onclick="changeContent('alcohol')">Alcohol</button>
+    <button class="btn" onclick="changeContent('tablet')">Tablet</button>
+    <button class="btn" onclick="changeContent('injection')">Injection</button>
   </div>
   
   <div class="left1">
-    <img src="../asserts/alcohol6.jpg" alt="Alcohol" height="550" width="350">
+    <img src="../asserts/alcohol.img.service.jpg" alt="Alcohol" height="500" width="350">
   
-  <div class="right1">
-    <h3>Alcohol</h3>
-    <h2>Common Symptoms</h2>
-    <p>Strong cravings for alcohol</p>
-    <p>Inability to limit drinking</p>
-    <p>Developing a tolerance</p>
-    <p>Withdrawal symptoms when not drinking</p>
-  <br>
-    <h2>Long-term Effects</h2>
-    <p>Liver disease</p>
-    <p>Heart problems</p>
-    <p>Damaged relationships</p>
-    <p>Financial instability</p>
-    <br><br>
+  <div class="right1" id="right">
     <a class="read-btn" href="./appointment.html">Appointment</a>
     
   </div>
+
+  <script>
+    const contentData = {
+    alcohol: `
+      <h3>Alcohol</h3>
+      <h2>Common Symptoms</h2>
+      <p class="p">Strong cravings for alcohol</p>
+      <p class="p">Inability to limit drinking</p>
+      <p class="p">Developing a tolerance</p>
+      <p class="p">Withdrawal symptoms when not drinking</p>
+      <br>
+      <h2>Long-term Effects</h2>
+      <p class="p">Liver disease</p>
+      <p class="p">Heart problems</p>
+      <p class="p">Damaged relationships</p>
+      <p class="p">Financial instability</p>
+    `,
+
+    tablet: `
+      <h3>Tablet</h3>
+      <h2>Common Symptoms</h2>
+      <p class="p">Nausea, stomach upset, diarrhea, or constipation.</p>
+      <p class="p">Dizziness, headache, or drowsiness.</p>
+      <p class="p"> Dry mouth, skin rash, or flushing.</p>
+      <p class="p"> Fatigue, mood changes, or weight changes. </p>
+      <br>
+      <h2>Long-term Effects</h2>
+      <p class="p"> Risk of kidney, liver, and gastrointestinal damage.</p>
+      <p class="p"> Extreme drowsiness, memory problems, and dependency. </p>
+      <p class="p">Heart problems, high blood pressure, and seizures.</p>
+      <p class="p">High risk of addiction, respiratory issues, and overdose.</p>
+    `,
+
+    injection: `
+      <h3>Injection</h3>
+      <h2>Common Symptoms</h2>
+      <p class="p">Rapid or irregular heart rate, high blood pressure.</p>
+      <p class="p">Confusion, headache, dizziness, memory loss.</p>
+      <p class="p">Slowed or, in cases of severe distress, stopped breathing.</p>
+      <p class="p">Nausea, vomiting, constipation. </p>
+      <br>
+      <h2>Long-term Effects</h2>
+      <p class="p">Track marks (scars), bruising, swelling, redness, and itching at the site.</p>
+      <p class="p">Abscesses (painful, pus-filled lumps), skin infections (cellulitis), and systemic infection (sepsis).</p>
+      <p class="p"Increased risk of suicide, depression, and anxiety.</p>
+      <p class="p">Chronic damage to the liver, kidneys, and lungs.</p>
+    `
+  };
+
+  function changeContent(type) {
+    document.getElementById("right").innerHTML = contentData[type];
+  }
+
+  // Page load aagumbodhu default content
+  changeContent('alcohol');
+   
+  </script>
+
   </div>
   </section>
   <footer>
